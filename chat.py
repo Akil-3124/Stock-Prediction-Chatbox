@@ -18,7 +18,7 @@ def app():
     
     @st.cache_data
     def fetch_data(query):
-        API_ENDPOINT = "https://stock.coralflow.co/stock"
+        API_ENDPOINT = "https://indian-stock-exchange-api2.p.rapidapi.com/stock_target_price"
 
         headers = {
             "name": query,
