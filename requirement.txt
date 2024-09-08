@@ -1,0 +1,20 @@
+# Core Dependencies
+streamlit==1.25.0
+pandas==1.5.3
+requests==2.31.0
+yfinance==0.2.26
+scikit-learn==1.3.1
+vaderSentiment==3.3.2
+altair==5.1.1
+
+# AI and NLP Dependencies
+langchain==0.0.304
+openai==0.28.0
+langchain-groq==0.1.0
+
+# Optional Dependencies for Enhanced Features
+streamlit-option-menu==0.3.2
+lottie==0.6.0  # For Lottie animations (replace with correct package if needed)
+
+# Caching
+cachetools==5.3.1
